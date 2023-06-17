@@ -16,10 +16,10 @@ int main(void)
 	{
 		if (ch == 'e' || ch == 'q')
 			ch++;
-		puchar(ch);
+		putchar(ch);
 		ch++;
 	}
-	puchar('\n');
+	putchar('\n');
 
 	return (0);
 }

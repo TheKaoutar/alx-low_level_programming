@@ -21,9 +21,10 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+
 		digit++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
